@@ -14,6 +14,7 @@ public class TC01 {
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.facebook.com/login/");
         System.out.println(driver.getTitle());
+        driver.quit();
     }
 
 }
