@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/jyoti/IdeaProjects/SeleniumLearning/src/test">
+        <classes>
+            <class name="org.TestPractice.TC01">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC02">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC03">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC04">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC05">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC06">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC07">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC08">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC09">
+                <methods>
+                    <include name="facebooklogin"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC10">
+                <methods>
+                    <include name="Openbrowser"/>
+                </methods>
+            </class>
+            <class name="org.TestPractice.TC11">
+                <methods>
+                    <include name="VWOLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
