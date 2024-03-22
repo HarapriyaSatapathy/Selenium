@@ -1,4 +1,4 @@
-package org.TestPractice;
+package org.TestPractice.Basics;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;

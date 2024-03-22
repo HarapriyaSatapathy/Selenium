@@ -1,13 +1,11 @@
-package org.TestPractice;
+package org.TestPractice.Basics;
 
 import io.qameta.allure.Description;
-import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class TC08 {
+public class TC09 {
 
     @Test
     @Description("getcurrenturl,close and quit")

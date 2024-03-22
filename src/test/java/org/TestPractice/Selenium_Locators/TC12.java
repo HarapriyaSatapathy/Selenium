@@ -1,4 +1,4 @@
- package Selenium_Locators;
+ package org.TestPractice.Selenium_Locators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -25,6 +25,8 @@ import org.testng.annotations.Test;
          }
          WebElement error_msg = driver.findElement(By.id("js-notification-box-msg"));
          String error_msg_text=error_msg.getText();
+         String error_msg_text_dataqa=error_msg.getAttribute("data-qa");
+         System.out.println(error_msg_text_dataqa);
          Assert.assertEquals(error_msg_text,"Your email, password, IP address or location did not match");
          driver.quit();
 

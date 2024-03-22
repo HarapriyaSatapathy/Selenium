@@ -3,57 +3,57 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/jyoti/IdeaProjects/SeleniumLearning/src/test">
         <classes>
-            <class name="org.TestPractice.TC01">
+            <class name="org.TestPractice.Basics.TC01">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC02">
+            <class name="org.TestPractice.Basics.TC02">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC03">
+            <class name="org.TestPractice.Basics.TC03">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC04">
+            <class name="org.TestPractice.Basics.TC04">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC05">
+            <class name="org.TestPractice.Basics.TC05">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC06">
+            <class name="org.TestPractice.Basics.TC06">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC07">
+            <class name="org.TestPractice.Basics.TC07">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC08">
+            <class name="org.TestPractice.Basics.TC08">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC09">
+            <class name="org.TestPractice.Basics.TC09">
                 <methods>
                     <include name="facebooklogin"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC10">
+            <class name="org.TestPractice.Basics.TC10">
                 <methods>
                     <include name="Openbrowser"/>
                 </methods>
             </class>
-            <class name="org.TestPractice.TC11">
+            <class name="org.TestPractice.Basics.TC11">
                 <methods>
                     <include name="VWOLogin"/>
                 </methods>

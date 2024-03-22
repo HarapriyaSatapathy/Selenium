@@ -1,4 +1,4 @@
-package org.TestPractice;
+package org.TestPractice.Basics;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
@@ -6,17 +6,24 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class TC04 {
+public class TC02 {
 
     @Test
-    @Description("incognito mode")
+    @Description("Verify maximize facebook title")
+
     public void facebooklogin() {
         ChromeOptions chromeoptions = new ChromeOptions();
-        chromeoptions.addArguments("--incognito");
+        chromeoptions.addArguments("--start-maximized");
         WebDriver driver = new ChromeDriver(chromeoptions);
         driver.get("https://www.facebook.com/login/");
         System.out.println(driver.getTitle());
-
         driver.quit();
+
+
     }
+
+
+
+
+
 }
