@@ -1,1 +1,1 @@
-# WebAutomation
+# Selenium Basics
